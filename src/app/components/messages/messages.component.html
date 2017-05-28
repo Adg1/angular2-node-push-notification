@@ -1,0 +1,9 @@
+<div class="list">
+  <div class="messages">
+    <div class="messages--container" *ngFor="let message of messages"
+      [ngClass]="{'read': message.read, 'unread': !message.read}"
+      (click)="gotoDetail(message)">
+      <div class="message">{{message.summary}}</div>
+    </div>
+  </div>
+</div>

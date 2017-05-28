@@ -1,0 +1,34 @@
+.list {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+.message {
+  padding: 10px;
+}
+.messages {
+  display: inline;
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.messages .messages--container {
+  border-top: 1px solid black;
+  cursor: pointer;
+  font-size: 0.9em;
+  position: relative;
+  left: 0;
+}
+.unread {
+  color: black;
+  font-weight: bold;
+  background-color: #FFF;
+}
+.read {
+  background-color: #F4F4F4;
+}
